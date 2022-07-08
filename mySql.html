@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/images/favicon.png"><title>mySql | Jazh的博客</title><meta name="description" content="前端, 工具, 框架, Vue, React, Node等">
+    <link rel="modulepreload" href="/assets/app.6944330c.js"><link rel="modulepreload" href="/assets/mySql.html.59e6dc56.js"><link rel="modulepreload" href="/assets/mySql.html.ed560f49.js"><link rel="prefetch" href="/assets/docker.html.3b98aca9.js"><link rel="prefetch" href="/assets/index.html.c38243dd.js"><link rel="prefetch" href="/assets/404.html.265028f6.js"><link rel="prefetch" href="/assets/docker.html.d2631979.js"><link rel="prefetch" href="/assets/index.html.256ff6ec.js"><link rel="prefetch" href="/assets/404.html.530e4435.js"><link rel="prefetch" href="/assets/404.87ab75e9.js"><link rel="prefetch" href="/assets/Layout.8200ed6b.js"><link rel="prefetch" href="/assets/DocList.e7cb0c80.js">
+    <link rel="stylesheet" href="/assets/style.784ac05b.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/" class=""><img class="logo" src="/images/logo.png" alt="Jazh的博客"><span class="site-name can-hide">Jazh的博客</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide"><!--[--><div class="navbar-item"><a href="/" class="" aria-label="文章"><!--[--><!--]--> 文章 <!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><form class="search-box" role="search"><input type="search" placeholder="搜索" autocomplete="off" spellcheck="false" value><!----></form></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items"><!--[--><div class="navbar-item"><a href="/" class="" aria-label="文章"><!--[--><!--]--> 文章 <!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><p tabindex="0" class="sidebar-item sidebar-heading">mySql <!----></p><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/mySql.html#下载安装" class="router-link-active router-link-exact-active sidebar-item" aria-label="下载安装"><!--[--><!--]--> 下载安装 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/mySql.html#链接" class="router-link-active router-link-exact-active sidebar-item" aria-label="链接"><!--[--><!--]--> 链接 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/mySql.html#打死也要记住法则" class="router-link-active router-link-exact-active sidebar-item" aria-label="打死也要记住法则"><!--[--><!--]--> 打死也要记住法则 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/mySql.html#select" class="router-link-active router-link-exact-active sidebar-item" aria-label="select"><!--[--><!--]--> select <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/mySql.html#where" class="router-link-active router-link-exact-active sidebar-item" aria-label="where"><!--[--><!--]--> where <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/mySql.html#操作符-数字" class="router-link-active router-link-exact-active sidebar-item" aria-label="操作符：数字"><!--[--><!--]--> 操作符：数字 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/mySql.html#操作符-字符串" class="router-link-active router-link-exact-active sidebar-item" aria-label="操作符：字符串"><!--[--><!--]--> 操作符：字符串 <!--[--><!--]--></a><!----></li><!--]--></ul></li><li><a aria-current="page" href="/mySql.html#例子" class="router-link-active router-link-exact-active sidebar-item" aria-label="例子"><!--[--><!--]--> 例子 <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/mySql.html#from跟select操作" class="router-link-active router-link-exact-active sidebar-item" aria-label="from跟select操作："><!--[--><!--]--> from跟select操作： <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/mySql.html#自定义列-case" class="router-link-active router-link-exact-active sidebar-item" aria-label="自定义列 + CASE"><!--[--><!--]--> 自定义列 + CASE <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h1 id="mysql" tabindex="-1"><a class="header-anchor" href="#mysql" aria-hidden="true">#</a> mySql</h1><h2 id="下载安装" tabindex="-1"><a class="header-anchor" href="#下载安装" aria-hidden="true">#</a> 下载安装</h2><p><a href="https://www.cnblogs.com/yinzhengjie/p/10125609.html" target="_blank" rel="noopener noreferrer">文章<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a></p><p>1.<a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener noreferrer">下载地址<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a>、<a href="https://mirrors.ustc.edu.cn/mysql-ftp/Downloads/" target="_blank" rel="noopener noreferrer">中科大镜像<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a></p><p>2.选择版本下载</p><p>3.跳过登录</p><p>4.安装包安装（安装过程中有初始密码记或者自己输入密码）， 12345678</p><p>5.<a href="https://macwk.com/soft/navicat-premium" target="_blank" rel="noopener noreferrer">图形化工具<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a></p><p>6.<a href="https://www.yiibai.com/mysql/sample-database.html" target="_blank" rel="noopener noreferrer">学习教程<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a></p><p>7.<a href="https://wenku.baidu.com/view/59e774567cd5360cba1aa8114431b90d6c85893f.html" target="_blank" rel="noopener noreferrer">安装后终端环境变量问题<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a></p><h2 id="链接" tabindex="-1"><a class="header-anchor" href="#链接" aria-hidden="true">#</a> 链接</h2><p>服务器链接外网数据库</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 命令：</span>
+mysql -h <span class="token function">hostname</span> -u username -p
+
+
+<span class="token comment"># 常规： </span>
+<span class="token comment"># hostname：替换为目标 MySQL 数据库实例的外网地址</span>
+<span class="token comment"># port：替换为外网端口号</span>
+<span class="token comment"># username：替换为外网连接用户名</span>
+
+<span class="token comment"># 例子</span>
+
+mysql -h bj-cdb-bt5sq8g0.sql.tencentcdb.com -P <span class="token number">60187</span> -u jazh -p
+
+<span class="token comment"># 如果是用navicat premium等工具需要先ssh登录服务器然后在链接</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><hr><br><h2 id="打死也要记住法则" tabindex="-1"><a class="header-anchor" href="#打死也要记住法则" aria-hidden="true">#</a> 打死也要记住法则</h2><ul><li>SELECT col,col,col 找什么？</li><li>FROM table 从哪找？</li><li>WHERE col 条件 条件是啥？</li><li>order by 排序。 order by year asc/desc ,年份升序/降序</li><li>group by 分组。</li><li>having 分组后在筛选的条件可以计算</li><li>limit 选取部分结果的长度</li><li>offset 从哪开始选结果</li></ul><h2 id="select" tabindex="-1"><a class="header-anchor" href="#select" aria-hidden="true">#</a> select</h2><blockquote><p>select之后是逗号分隔列或星号(*)的列表，表示要返回所有列。</p></blockquote><ul><li>count 计数</li><li>min 最小的</li><li>max 最大的</li><li>sum 求和</li><li>avg 平均数</li></ul><h2 id="where" tabindex="-1"><a class="header-anchor" href="#where" aria-hidden="true">#</a> where</h2><blockquote><p>WHERE子句允许根据指定的过滤表达式或条件来指定要选择的行。</p></blockquote><h3 id="操作符-数字" tabindex="-1"><a class="header-anchor" href="#操作符-数字" aria-hidden="true">#</a> 操作符：数字</h3><ul><li>=, !=, &lt; &lt;=, &gt;, &gt;= 比较</li><li>BETWEEN ... AND ... 在两个数之间</li><li>NOT BETWEEN … AND … 不在两个数之间</li><li>IN (…) 在一个列表</li><li>NOT IN(...) 不在一个列表</li></ul><h3 id="操作符-字符串" tabindex="-1"><a class="header-anchor" href="#操作符-字符串" aria-hidden="true">#</a> 操作符：字符串</h3><ul><li>= 等于</li><li>!= 不等于</li><li>like 没有通配符的时候和=一样</li><li>% % 和 like 一起用， LIKE &quot;%AT%&quot; 代表匹配 at-后是任意字符的字符串</li><li>_ _ 和 like 一起用， LIKE &quot;AN_&quot; 代表匹配-并且后面有任意一个字符</li><li>IN (…) 在一个列表</li><li>NOT IN(...) 不在一个列表</li></ul><h2 id="例子" tabindex="-1"><a class="header-anchor" href="#例子" aria-hidden="true">#</a> 例子</h2><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">#cms</span>
+<span class="token keyword">select</span>
+    attrs<span class="token punctuation">[</span><span class="token string">&#39;spot_id&#39;</span><span class="token punctuation">]</span> <span class="token keyword">as</span> spotId<span class="token punctuation">,</span>
+    get_json_object<span class="token punctuation">(</span>attrs<span class="token punctuation">[</span><span class="token string">&#39;biz_content&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">&#39;$.campaignUnitId&#39;</span><span class="token punctuation">)</span> <span class="token keyword">as</span> campaignUnitId<span class="token punctuation">,</span>
+    pt<span class="token punctuation">,</span>
+    <span class="token function">count</span><span class="token punctuation">(</span><span class="token keyword">DISTINCT</span><span class="token punctuation">(</span>cip<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">as</span> uv<span class="token punctuation">,</span>
+    <span class="token function">count</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">as</span> pv
+<span class="token keyword">from</span>
+    htw_dw<span class="token punctuation">.</span>dwd_htm_log_event_web_di
+<span class="token keyword">where</span>
+    <span class="token string">&#39;2021-05-01&#39;</span> <span class="token operator">&lt;=</span> pt <span class="token operator">and</span> pt <span class="token operator">&lt;=</span> <span class="token string">&#39;2021-05-04&#39;</span>
+    <span class="token operator">and</span> eventid <span class="token operator">=</span> <span class="token string">&#39;phpub_cms_view_sw&#39;</span>
+    <span class="token operator">and</span> attrs<span class="token punctuation">[</span><span class="token string">&#39;spot_id&#39;</span><span class="token punctuation">]</span> <span class="token operator">in</span> <span class="token punctuation">(</span><span class="token string">&#39;bh-h5-all-campaign-panel&#39;</span><span class="token punctuation">)</span>
+    <span class="token operator">and</span> get_json_object<span class="token punctuation">(</span>attrs<span class="token punctuation">[</span><span class="token string">&#39;biz_content&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">&#39;$.campaignUnitId&#39;</span><span class="token punctuation">)</span> <span class="token operator">in</span> <span class="token punctuation">(</span><span class="token string">&#39;94161&#39;</span><span class="token punctuation">)</span>
+<span class="token keyword">group</span> <span class="token keyword">by</span>
+    attrs<span class="token punctuation">[</span><span class="token string">&#39;spot_id&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    pt<span class="token punctuation">,</span>
+    get_json_object<span class="token punctuation">(</span>attrs<span class="token punctuation">[</span><span class="token string">&#39;biz_content&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">&#39;$.campaignUnitId&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+ 
+
+<span class="token comment"># 小程序</span>
+<span class="token keyword">select</span>
+    eventid<span class="token punctuation">,</span>
+    attrs<span class="token punctuation">[</span><span class="token string">&#39;is_havecar&#39;</span><span class="token punctuation">]</span> <span class="token keyword">as</span> is_havecar<span class="token punctuation">,</span>
+    <span class="token function">count</span><span class="token punctuation">(</span>attrs<span class="token punctuation">[</span><span class="token string">&#39;is_havecar&#39;</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">as</span> num
+<span class="token keyword">from</span>
+    htw_dw<span class="token punctuation">.</span>dwd_htm_log_event_mp_di
+<span class="token keyword">where</span>
+    pt <span class="token operator">&gt;=</span> <span class="token string">&#39;2021-02-07&#39;</span> <span class="token operator">and</span> pt <span class="token operator">&lt;=</span> <span class="token string">&#39;2021-02-07&#39;</span>
+    <span class="token operator">and</span> eventid <span class="token operator">=</span> <span class="token string">&#39;qj_wx_homepage_searchbike_ck&#39;</span>
+<span class="token keyword">group</span> <span class="token keyword">by</span>
+    eventid<span class="token punctuation">,</span>
+    attrs<span class="token punctuation">[</span><span class="token string">&#39;is_havecar&#39;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+
+
+<span class="token comment"># 查询条件里</span>
+<span class="token keyword">select</span>
+    Name
+<span class="token keyword">from</span>
+    Employee <span class="token keyword">as</span> a
+<span class="token keyword">where</span>
+    Salary <span class="token operator">&gt;</span> <span class="token punctuation">(</span>
+        <span class="token keyword">SELECT</span>
+            Salary
+        <span class="token keyword">FROM</span>
+            Employee
+        <span class="token keyword">WHERE</span>
+            Id <span class="token operator">=</span> a<span class="token punctuation">.</span>Managerid
+    <span class="token punctuation">)</span>
+ 
+<span class="token comment"># 或者</span>
+<span class="token keyword">SELECT</span>
+    E1<span class="token punctuation">.</span>Name <span class="token keyword">AS</span> Employee
+<span class="token keyword">FROM</span>  
+    Employee <span class="token keyword">as</span> E1<span class="token punctuation">,</span>Employee <span class="token keyword">as</span> E2
+<span class="token keyword">WHERE</span>
+    E1<span class="token punctuation">.</span>ManagerId <span class="token operator">=</span> E2<span class="token punctuation">.</span>Id
+    <span class="token operator">AND</span> E1<span class="token punctuation">.</span>Salary <span class="token operator">&gt;</span> E2<span class="token punctuation">.</span>Salary<span class="token punctuation">;</span>
+
+
+
+<span class="token comment"># ifnull,表达式的结果如果是null则返回第二个参数</span>
+<span class="token keyword">select</span> ifnull<span class="token punctuation">(</span>
+    <span class="token punctuation">(</span><span class="token keyword">select</span> <span class="token keyword">distinct</span> Salary <span class="token keyword">as</span> SecondHighestSalary
+    <span class="token keyword">from</span> Employee
+    <span class="token keyword">order</span> <span class="token keyword">by</span> Salary <span class="token keyword">desc</span>
+    <span class="token keyword">limit</span> <span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token boolean">null</span>
+<span class="token punctuation">)</span> <span class="token keyword">as</span> SecondHighestSalary
+
+
+
+<span class="token comment"># 查找重复的电子邮箱</span>
+<span class="token comment"># having, 在数据分组之后再次筛选</span>
+<span class="token keyword">select</span>
+    Email
+<span class="token keyword">from</span>
+    Person
+<span class="token keyword">group</span> <span class="token keyword">by</span>
+    Email
+<span class="token keyword">having</span>
+    <span class="token function">count</span><span class="token punctuation">(</span>Email<span class="token punctuation">)</span> <span class="token operator">&gt;</span> <span class="token number">1</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><br><br></p><h3 id="from跟select操作" tabindex="-1"><a class="header-anchor" href="#from跟select操作" aria-hidden="true">#</a> from跟select操作：</h3><blockquote><p>解释：from字段后跟表，可以先用select 筛出来一个表然后在用，例,先用grade和class字段排序之后在直接展示gradeName和className：</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">SELECT</span>
+	gradeName <span class="token keyword">AS</span> <span class="token string">&#39;年级&#39;</span><span class="token punctuation">,</span>
+	className <span class="token keyword">AS</span> <span class="token string">&#39;班级&#39;</span><span class="token punctuation">,</span>
+	_count <span class="token keyword">AS</span> <span class="token string">&#39;数量&#39;</span>
+<span class="token keyword">FROM</span>
+	<span class="token punctuation">(</span>
+        <span class="token keyword">SELECT</span> 
+            gradeName<span class="token punctuation">,</span> 
+            className<span class="token punctuation">,</span> 
+            <span class="token function">count</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">AS</span> _count<span class="token punctuation">,</span> 
+            grade<span class="token punctuation">,</span> 
+            class 
+        <span class="token keyword">FROM</span> 
+            students 
+        <span class="token keyword">GROUP</span> <span class="token keyword">BY</span> gradeName<span class="token punctuation">,</span> 
+            grade<span class="token punctuation">,</span> 
+            className<span class="token punctuation">,</span> 
+            class 
+        <span class="token keyword">ORDER</span> <span class="token keyword">BY</span> grade<span class="token punctuation">,</span> class 
+    <span class="token punctuation">)</span> <span class="token keyword">AS</span> tables1
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><br><br></p><h3 id="自定义列-case" tabindex="-1"><a class="header-anchor" href="#自定义列-case" aria-hidden="true">#</a> 自定义列 + CASE</h3><blockquote><p>解释：select中，用 value as &#39;title&#39;的方式可以自定义一个列，同时value可以用case来高一map</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">SELECT</span>
+	grade<span class="token punctuation">,</span>
+	<span class="token punctuation">(</span> 
+		<span class="token keyword">CASE</span> grade 
+			<span class="token keyword">WHEN</span> <span class="token string">&#39;1&#39;</span> <span class="token keyword">THEN</span> <span class="token string">&#39;高一&#39;</span> 
+			<span class="token keyword">WHEN</span> <span class="token string">&#39;2&#39;</span> <span class="token keyword">THEN</span> <span class="token string">&#39;高二&#39;</span> 
+			<span class="token keyword">WHEN</span> <span class="token string">&#39;3&#39;</span> <span class="token keyword">THEN</span> <span class="token string">&#39;高三&#39;</span> 
+		<span class="token keyword">END</span> 
+	<span class="token punctuation">)</span> <span class="token keyword">AS</span> <span class="token string">&#39;年级&#39;</span> <span class="token punctuation">,</span>
+	<span class="token function">count</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">as</span> <span class="token string">&#39;人数&#39;</span>
+<span class="token keyword">FROM</span>
+	students
+<span class="token keyword">GROUP</span> <span class="token keyword">BY</span>
+	grade<span class="token punctuation">,</span>
+	<span class="token string">&#39;年级&#39;</span><span class="token punctuation">,</span>
+	<span class="token string">&#39;人数&#39;</span>
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">最后更新时间: </span><!----></div><!----></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.6944330c.js" defer></script>
+  </body>
+</html>

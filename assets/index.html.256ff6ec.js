@@ -1,0 +1,1 @@
+import{_ as o,r as t,o as c,c as n,b as r}from"./app.6944330c.js";const s={};function _(a,l){const e=t("DocList");return c(),n("div",null,[r(e)])}var m=o(s,[["render",_],["__file","index.html.vue"]]);export{m as default};

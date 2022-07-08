@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/images/favicon.png"><title>Jazh的博客</title><meta name="description" content="前端, 工具, 框架, Vue, React, Node等">
+    <link rel="modulepreload" href="/assets/app.6944330c.js"><link rel="modulepreload" href="/assets/404.html.530e4435.js"><link rel="modulepreload" href="/assets/404.html.265028f6.js"><link rel="prefetch" href="/assets/docker.html.3b98aca9.js"><link rel="prefetch" href="/assets/index.html.c38243dd.js"><link rel="prefetch" href="/assets/mySql.html.ed560f49.js"><link rel="prefetch" href="/assets/docker.html.d2631979.js"><link rel="prefetch" href="/assets/index.html.256ff6ec.js"><link rel="prefetch" href="/assets/mySql.html.59e6dc56.js"><link rel="prefetch" href="/assets/404.87ab75e9.js"><link rel="prefetch" href="/assets/Layout.8200ed6b.js"><link rel="prefetch" href="/assets/DocList.e7cb0c80.js">
+    <link rel="stylesheet" href="/assets/style.784ac05b.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.6944330c.js" defer></script>
+  </body>
+</html>
