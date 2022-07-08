@@ -10,6 +10,7 @@ module.exports = {
   lang: "zh-CN",
   title: "Jazh的博客",
   description: "前端, 工具, 框架, Vue, React, Node等",
+  head: [['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/jazh5719/images@main/favicon.png' }]],
   theme: defaultTheme({
     home: "/",
     sidebar: "auto",
@@ -31,5 +32,5 @@ module.exports = {
         },
       },
     }),
-  ]
+  ],
 };
