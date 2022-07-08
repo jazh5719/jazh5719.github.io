@@ -82,7 +82,7 @@ export default {
 
 @media screen and (min-width: 720px) {
     .list {
-        margin-top: 40px;
+        padding-top: 40px;
     }
 }
 </style>
