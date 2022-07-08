@@ -10,11 +10,11 @@ module.exports = {
   lang: "zh-CN",
   title: "Jazh的博客",
   description: "前端, 工具, 框架, Vue, React, Node等",
-  head: [['link', { rel: 'icon', href: '/images/favicon.png' }]],
+  head: [["link", { rel: "icon", href: "/images/favicon.png" }]],
   theme: defaultTheme({
     home: "/",
     sidebar: "auto",
-    navbar: [{ text: "首页", link: "/" }],
+    navbar: [{ text: "文章", link: "/" }],
     logo: "/images/logo.png",
     colorModeSwitch: false,
     lastUpdatedText: "最后更新时间",
